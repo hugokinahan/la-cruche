@@ -9,8 +9,8 @@ router.route('/members')
   .get(members.index)
 //   .post(members.create)
 
-// router.route('/members/:id')
-//   .get(members.show)
+router.route('/members/:id')
+  .get(members.show)
 //   .put(members.update)
 //   .delete(members.delete)
 

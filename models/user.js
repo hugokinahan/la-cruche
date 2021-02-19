@@ -6,8 +6,8 @@ const userSchema = new mongoose.Schema({
   username: { type: String, required: true, unique: true, maxlength: 20 }, 
   email: { type: String, required: true, unique: true }, 
   password: { type: String, required: true },
-  userImage: { type: String, required: false },
-  userBio: { type: String, required: false, maxlength: 400 },
+  // userImage: { type: String, required: false },
+  // userBio: { type: String, required: false, maxlength: 400 },
   // events: [{ type: mongoose.Schema.ObjectId, ref: 'Event', required: false }]
 })
 
