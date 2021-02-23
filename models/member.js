@@ -1,4 +1,5 @@
 import mongoose from 'mongoose'
+import uniqueValidator from 'mongoose-unique-validator'
 
 const membersSchema = new mongoose.Schema({
   name: { type: String, required: true, unique: true },
@@ -12,6 +13,9 @@ const membersSchema = new mongoose.Schema({
   weakness: { type: String, required: true },
   bestFinish: { type: String, required: true }, 
   favLCMemory: { type: String, required: true }, 
+  owner: { type: mongoose.Schema.ObjectId, ref: 'User', required: true },
 })
+
+membersSchema.plugin(uniqueValidator)
 
 export default mongoose.model('Member', membersSchema)

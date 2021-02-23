@@ -1,5 +1,6 @@
 import Member from '../models/member.js'
 import { notFound } from '../lib/errorHandler.js'
+// import mongoose from 'mongoose'
 
 // * GETTING ALL MEMBERS
 
@@ -15,7 +16,10 @@ async function memberIndex(_req, res, next){
 async function memberShow(req, res, next) {
   const { id } = req.params
   try {
-    const member = await Member.findById(id).populate('owner')
+    // if ( !mongoose.Types.ObjectId.isValid(id) ) return false
+    // mongoose.Types.ObjectId.isValid('603382d33bdb9f02d8699939')
+    const member = await Member.findById(id)
+    console.log(id)
     if (!member) throw new Error(notFound)
     return res.status(200).json(member)
   } catch (err) {
