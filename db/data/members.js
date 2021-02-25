@@ -1,7 +1,7 @@
 export default [
   {
     name: 'Hugo Kinahan', 
-    image: 'https://i.postimg.cc/MTphF811/hugo-headshot.jpg', 
+    image: 'https://i.postimg.cc/MTJ4vKx0/hugo-headshot.jpg', 
     handicap: '12',
     homeCourse: 'Hilton Belfast Templepatrick Golf & Country Club',
     favCoursePlayed: 'Dunluce Links, Royal Portrush', 
@@ -27,7 +27,7 @@ export default [
   },
   {
     name: 'Milo Shirley', 
-    image: 'https://i.postimg.cc/L4JvXsTr/milo-headshot.jpg', 
+    image: 'https://i.postimg.cc/T1R4J7Kp/milo-headshot.jpg', 
     handicap: '11',
     homeCourse: 'Ballycastle Golf Club',
     favCoursePlayed: 'Gunung Geulis GC', 
@@ -40,7 +40,7 @@ export default [
   },
   {
     name: 'Jamie Cunningham', 
-    image: 'https://i.postimg.cc/N0GkwGFC/jamie-headshot.jpg', 
+    image: 'https://i.postimg.cc/G3QNmCfY/jamie-headshot.jpg', 
     handicap: 'Four missing hamstrings (18)',
     homeCourse: 'Ballycastle Golf Club',
     favCoursePlayed: 'The Brabazon, The Belfrey', 
@@ -53,7 +53,7 @@ export default [
   },
   {
     name: 'Alex ‘want a slice’ Rhodes', 
-    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
+    image: 'https://i.postimg.cc/Qtj981Bp/alex-headshot.jpg', 
     handicap: '18 (for maths purposes)',
     homeCourse: 'The Royal Automobile Club - with Goat',
     favCoursePlayed: 'Rosapenna (Ire)', 
@@ -105,7 +105,7 @@ export default [
   },
   {
     name: 'Joe ‘Sung-Jae’ Mellor', 
-    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
+    image: 'https://i.postimg.cc/zvVfvjqR/joe-headshot.jpg', 
     handicap: '20',
     homeCourse: 'None - street golf specialist',
     favCoursePlayed: 'Kau Sai Chau, Sai Kung', 
