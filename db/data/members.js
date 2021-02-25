@@ -1,7 +1,7 @@
 export default [
   {
     name: 'Hugo Kinahan', 
-    image: 'N/A', 
+    image: 'https://i.postimg.cc/MTphF811/hugo-headshot.jpg', 
     handicap: '12',
     homeCourse: 'Hilton Belfast Templepatrick Golf & Country Club',
     favCoursePlayed: 'Dunluce Links, Royal Portrush', 
@@ -14,7 +14,7 @@ export default [
   },
   {
     name: 'Tom Young', 
-    image: 'N/A', 
+    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
     handicap: '12',
     homeCourse: 'Buckingham Golf Club',
     favCoursePlayed: 'Pebble Beach', 
@@ -27,7 +27,7 @@ export default [
   },
   {
     name: 'Milo Shirley', 
-    image: 'N/A', 
+    image: 'https://i.postimg.cc/L4JvXsTr/milo-headshot.jpg', 
     handicap: '11',
     homeCourse: 'Ballycastle Golf Club',
     favCoursePlayed: 'Gunung Geulis GC', 
@@ -40,7 +40,7 @@ export default [
   },
   {
     name: 'Jamie Cunningham', 
-    image: 'N/A', 
+    image: 'https://i.postimg.cc/N0GkwGFC/jamie-headshot.jpg', 
     handicap: 'Four missing hamstrings (18)',
     homeCourse: 'Ballycastle Golf Club',
     favCoursePlayed: 'The Brabazon, The Belfrey', 
@@ -53,7 +53,7 @@ export default [
   },
   {
     name: 'Alex ‘want a slice’ Rhodes', 
-    image: 'N/A', 
+    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
     handicap: '18 (for maths purposes)',
     homeCourse: 'The Royal Automobile Club - with Goat',
     favCoursePlayed: 'Rosapenna (Ire)', 
@@ -66,7 +66,7 @@ export default [
   },
   {
     name: 'Dom Barnes', 
-    image: 'N/A', 
+    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
     handicap: '13',
     homeCourse: 'Nomad',
     favCoursePlayed: 'Turnberry', 
@@ -79,7 +79,7 @@ export default [
   },
   {
     name: 'Harry FitzGerald', 
-    image: 'N/A', 
+    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
     handicap: '9',
     homeCourse: 'Wildernesse GC',
     favCoursePlayed: 'Harbour Town Golf Links (Hilton Head, South Carolina)', 
@@ -92,7 +92,7 @@ export default [
   },
   {
     name: 'Paul Kidd', 
-    image: 'N/A', 
+    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
     handicap: '12',
     homeCourse: 'Monifieth Golf Links',
     favCoursePlayed: 'The Carrick on Loch Lomond', 
@@ -105,7 +105,7 @@ export default [
   },
   {
     name: 'Joe ‘Sung-Jae’ Mellor', 
-    image: 'N/A', 
+    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
     handicap: '20',
     homeCourse: 'None - street golf specialist',
     favCoursePlayed: 'Kau Sai Chau, Sai Kung', 
@@ -118,7 +118,7 @@ export default [
   },
   {
     name: 'Harry Rees', 
-    image: 'N/A', 
+    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
     handicap: '18',
     homeCourse: 'The Royal Automobile Club (Old Course)',
     favCoursePlayed: 'Rosapenna - Sandy Hill Links', 
