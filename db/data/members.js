@@ -6,7 +6,7 @@ export default [
     homeCourse: 'Hilton Belfast Templepatrick Golf & Country Club',
     favCoursePlayed: 'Dunluce Links, Royal Portrush', 
     bestGolfMemory: 'Emiliano Grillo Hole in One, The Open at Portrush. Magical.', 
-    lowestRound: '78 at Cairndhu Golf Club', 
+    lowestRound: '79 (+7) at Hilton Templepatrick Golf Club', 
     favShot: 'Anything around 135/140',
     weakness: 'Right miss, flaccid putt', 
     bestFinish: '2nd to the GOAT in 2020',
@@ -21,7 +21,7 @@ export default [
     bestGolfMemory: 'Watching the 🐅 win the Masters on his comeback', 
     lowestRound: '80 (+8) @ Cragielaw, Scotland', 
     favShot: '3 jab putt',
-    weakness: 'the BIG right miss', 
+    weakness: 'The BIG right miss', 
     bestFinish: '3rd',
     favLCMemory: 'J Mellor getting on all fours to ‘snooker’ a putt on (almost) every hole at Portrush. Box Office.'
   },
@@ -33,7 +33,7 @@ export default [
     favCoursePlayed: 'Gunung Geulis GC', 
     bestGolfMemory: 'Shanking a tee shot into some old boy’s knee standing 25 yards away, to then learn he was already wearing a knee-brace. Followed by a 35 minute nosebleed.', 
     lowestRound: '77', 
-    favShot: 'red aftershock',
+    favShot: 'Red aftershock',
     weakness: 'Driving', 
     bestFinish: '3rd',
     favLCMemory: 'Watching Rees tattoo his golf ball off the 1st tee box at Ballycastle, completely unaware of the danger right.'
@@ -44,12 +44,12 @@ export default [
     handicap: 'Four missing hamstrings (18)',
     homeCourse: 'Ballycastle Golf Club',
     favCoursePlayed: 'The Brabazon, The Belfrey', 
-    bestGolfMemory: 'Finishing  72 holes in a one day challenge for Cancer Research UK', 
+    bestGolfMemory: 'Finishing 72 holes in a one day challenge for Cancer Research UK', 
     lowestRound: '85', 
     favShot: 'Anything straight ',
     weakness: 'Pasta pesto with a sprinkling of pine nuts', 
-    bestFinish: 'La Cruche Debutant',
-    favLCMemory: 'La Cruche Debutant'
+    bestFinish: 'Debutant',
+    favLCMemory: 'Debutant'
   },
   {
     name: 'Alex ‘want a slice’ Rhodes', 
@@ -74,7 +74,7 @@ export default [
     lowestRound: '76', 
     favShot: '(I assume this is of any pro golfer?)',
     weakness: 'Thinking I play off +4 and then sulking when I shank it. ', 
-    bestFinish: '5th',
+    bestFinish: '6th',
     favLCMemory: 'Ballycastle Golf Club, The Abbey, 166 yards, Tom Young.'
   },
   {
@@ -83,11 +83,11 @@ export default [
     handicap: '9',
     homeCourse: 'Wildernesse GC',
     favCoursePlayed: 'Harbour Town Golf Links (Hilton Head, South Carolina)', 
-    bestGolfMemory: 'don’t have one - golf is too painful', 
+    bestGolfMemory: 'Don’t have one - golf is too painful', 
     lowestRound: '76 (+4)', 
     favShot: 'Baby cut',
-    weakness: 'where do I start! Block to the right with the big stick', 
-    bestFinish: '6th',
+    weakness: 'Where do I start! Block to the right with the big stick', 
+    bestFinish: '5th',
     favLCMemory: 'ACE’s hole in one'
   },
   {
@@ -111,9 +111,9 @@ export default [
     favCoursePlayed: 'Kau Sai Chau, Sai Kung', 
     bestGolfMemory: 'Making a putt back in September ‘08', 
     lowestRound: 'maybe like 14 over once?', 
-    favShot: 'little stinger through a gap in the trees after ‘finding’ my ball off the tee.',
+    favShot: 'Little stinger through a gap in the trees after ‘finding’ my ball off the tee.',
     weakness: 'Anything within 30 feet from the pin', 
-    bestFinish: 'T8',
+    bestFinish: 'T7',
     favLCMemory: 'Baby Guins at Tessie’s'
   },
   {
@@ -127,6 +127,6 @@ export default [
     favShot: '8 iron in, standing next to the 150 yard stick',
     weakness: 'Crumbling under the first tee shot pressure', 
     bestFinish: '1st',
-    favLCMemory: 'walking up the 2nd fairway at Ballycastle hearing the roar coming from the tee box on the 3rd as TY hits an ace. Joe Mellor lying on his front on a soggy Portrush green, trying to snooker his ball in comes a very close second!'
+    favLCMemory: 'Walking up the 2nd fairway at Ballycastle hearing the roar coming from the tee box on the 3rd as TY hits an ace. Joe Mellor lying on his front on a soggy Portrush green, trying to snooker his ball in comes a very close second!'
   }
 ]
