@@ -14,7 +14,7 @@ export default [
   },
   {
     name: 'Tom Young', 
-    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
+    image: 'https://i.postimg.cc/pLW1SSGJ/tom-headshot.jpg', 
     handicap: '12',
     homeCourse: 'Buckingham Golf Club',
     favCoursePlayed: 'Pebble Beach', 
@@ -72,7 +72,7 @@ export default [
     favCoursePlayed: 'Turnberry', 
     bestGolfMemory: 'Ballycastle Golf Club, The Abbey, 166 yards, Tom Young.', 
     lowestRound: '76', 
-    favShot: '(I assume this is of any pro golfer?)',
+    favShot: 'Driver',
     weakness: 'Thinking I play off +4 and then sulking when I shank it. ', 
     bestFinish: '6th',
     favLCMemory: 'Ballycastle Golf Club, The Abbey, 166 yards, Tom Young.'
@@ -118,7 +118,7 @@ export default [
   },
   {
     name: 'Harry Rees', 
-    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
+    image: 'https://i.postimg.cc/vZFDwg1M/harry-headshot.jpg', 
     handicap: '18',
     homeCourse: 'The Royal Automobile Club (Old Course)',
     favCoursePlayed: 'Rosapenna - Sandy Hill Links', 
