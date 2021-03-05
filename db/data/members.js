@@ -66,7 +66,7 @@ export default [
   },
   {
     name: 'Dom Barnes', 
-    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
+    image: 'https://media-exp1.licdn.com/dms/image/C4D03AQEz8QxHjSh57g/profile-displayphoto-shrink_800_800/0/1604771869319?e=1620259200&v=beta&t=GU9WXJGyWnVXNg3961rRTFVko6QB2KMJ5h55OXrLAHg', 
     handicap: '13',
     homeCourse: 'Nomad',
     favCoursePlayed: 'Turnberry', 
@@ -79,7 +79,7 @@ export default [
   },
   {
     name: 'Harry FitzGerald', 
-    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
+    image: 'https://media-exp1.licdn.com/dms/image/C4D03AQHIQsaI2AJWeg/profile-displayphoto-shrink_800_800/0/1564219852561?e=1620259200&v=beta&t=Bl5q1T-R6DLrMFO_Lc2OVJleIfLNflmRWYU6QBgZebc', 
     handicap: '9',
     homeCourse: 'Wildernesse GC',
     favCoursePlayed: 'Harbour Town Golf Links (Hilton Head, South Carolina)', 
@@ -92,7 +92,7 @@ export default [
   },
   {
     name: 'Paul Kidd', 
-    image: 'http://localhost:3000/static/media/milo-headshot.11e06a6c.JPG', 
+    image: 'https://scontent-lhr8-2.xx.fbcdn.net/v/t1.0-9/38085579_2641576792534973_7525493163197202432_n.jpg?_nc_cat=105&ccb=3&_nc_sid=8bfeb9&_nc_ohc=02YdArwq64EAX_u2RRN&_nc_ht=scontent-lhr8-2.xx&oh=916a533e8963711589b64eeda0a06624&oe=606769D5', 
     handicap: '12',
     homeCourse: 'Monifieth Golf Links',
     favCoursePlayed: 'The Carrick on Loch Lomond', 
