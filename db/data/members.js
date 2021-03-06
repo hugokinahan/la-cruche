@@ -79,7 +79,7 @@ export default [
   },
   {
     name: 'Harry FitzGerald', 
-    image: 'https://media-exp1.licdn.com/dms/image/C4D03AQHIQsaI2AJWeg/profile-displayphoto-shrink_800_800/0/1564219852561?e=1620259200&v=beta&t=Bl5q1T-R6DLrMFO_Lc2OVJleIfLNflmRWYU6QBgZebc', 
+    image: 'https://i.postimg.cc/65PQSyWq/Whats-App-Image-2021-03-05-at-18-33-28.jpg', 
     handicap: '9',
     homeCourse: 'Wildernesse GC',
     favCoursePlayed: 'Harbour Town Golf Links (Hilton Head, South Carolina)', 
