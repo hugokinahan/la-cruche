@@ -24,10 +24,10 @@
     "semantic-ui-react": "^2.0.3"
   },
   "scripts": {
+    "build": "cd client && yarn && yarn build",
     "dev": "npx nodemon",
     "seed": "node db/seeds.js",
     "dev-fullstack": "concurrently \"yarn dev\" \"cd client && yarn start\"",
-    "start": "node index.js",
-    "build": "cd client && yarn && yarn build"
+    "start": "node index.js"
   }
 }
