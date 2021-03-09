@@ -26,6 +26,11 @@
   "scripts": {
     "seed": "node db/seeds.js",
 	  "dev": "npx nodemon",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "cd client && yarn && yarn build"
+  },
+
+  "engines": {
+    "node": "v15.11.0"
   }
 }
