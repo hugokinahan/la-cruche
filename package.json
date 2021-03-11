@@ -12,6 +12,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.11.9",
     "mongoose-unique-validator": "^2.0.3",
+    "node-sass": "^5.0.0",
     "react-burger-menu": "^3.0.3",
     "react-icons": "^4.2.0",
     "react-instagram-authless-feed": "jamesmoriarty/react-instagram-authless-feed",
@@ -25,12 +26,9 @@
   },
   "scripts": {
     "seed": "node db/seeds.js",
-	  "dev": "npx nodemon",
+    "dev": "npx nodemon",
     "start": "node index.js",
-    "build": "cd client && yarn && yarn build"
-  },
-
-  "engines": {
-    "node": "v15.11.0"
+    "build": "cd client && yarn && yarn build",
+    "dev-fullstack": "concurrently \"yarn dev\" \"cd client && yarn start\""
   }
 }
