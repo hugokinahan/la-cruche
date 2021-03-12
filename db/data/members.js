@@ -66,7 +66,7 @@ export default [
   },
   {
     name: 'Dom Barnes', 
-    image: 'https://media-exp1.licdn.com/dms/image/C4D03AQEz8QxHjSh57g/profile-displayphoto-shrink_800_800/0/1604771869319?e=1620259200&v=beta&t=GU9WXJGyWnVXNg3961rRTFVko6QB2KMJ5h55OXrLAHg', 
+    image: 'https://i.postimg.cc/SQGtCRRK/dom-headshot.jpg', 
     handicap: '13',
     homeCourse: 'Nomad',
     favCoursePlayed: 'Turnberry', 
