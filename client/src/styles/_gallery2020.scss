@@ -1,0 +1,431 @@
+.gallery-content {
+  background-color: white;
+  height: 90vh;
+  width: 100%;
+  // margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  h5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.gallery-header {
+  text-align: center;
+  font-size: 41px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: $sig-green;
+  letter-spacing: 3px;
+}
+
+// * SLIDESHOW 
+
+@keyframes tonext {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: 100%;
+  }
+  98% {
+    left: 100%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes tostart {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: -300%;
+  }
+  98% {
+    left: -300%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes snap {
+  96% {
+    scroll-snap-align: center;
+  }
+  97% {
+    scroll-snap-align: none;
+  }
+  99% {
+    scroll-snap-align: none;
+  }
+  100% {
+    scroll-snap-align: center;
+  }
+}
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent; /* thumb and track color */
+  scrollbar-width: 0px;
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+ol, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  width: 750px;
+  height: 600px;
+  // max-height: 200px;
+  position: relative;
+  // padding-top: 75%;
+  filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+  margin: 0 auto;
+}
+
+.carousel__viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel__slide_gal {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-image: url('https://i.postimg.cc/kgRDXy7b/boys-portrush-group.jpg');
+  background-size: cover;
+  background-position: center;
+  counter-increment: item;
+}
+
+.carousel__slide_gal:nth-child(2) {
+  background-image: url('https://i.postimg.cc/hv8xZkrL/group-portrush.jpg');
+}
+
+.carousel__slide_gal:nth-child(3) {
+  background-image: url('https://i.postimg.cc/Y2XS6P9F/boys-portrush.jpg');
+}
+
+.carousel__slide_gal:nth-child(4) {
+  background-image: url('https://i.postimg.cc/XJs6KqMd/dom-portrush.jpg');
+}
+.carousel__slide_gal:nth-child(5) {
+  background-image: url('https://i.postimg.cc/sx1sHVXh/hugo-portrush.jpg');
+}
+
+.carousel__slide_gal:nth-child(6) {
+  background-image: url('https://i.postimg.cc/k5xnS7Xv/PHOTO-2020-08-22-19-48-08.jpg');
+}
+
+.carousel__slide_gal:nth-child(7) {
+  background-image: url('https://i.postimg.cc/wB6Kb64j/PHOTO-2020-08-20-19-52-32.jpg');
+}
+.carousel__slide_gal:nth-child(8) {
+  background-image: url('https://i.postimg.cc/Dwzf8PFg/PHOTO-2020-08-20-19-52-46-2.jpg');
+}
+
+.carousel__slide_gal:nth-child(9) {
+  background-image: url('https://i.postimg.cc/x8RYdc4h/PHOTO-2020-08-20-19-52-46.jpg');
+}
+
+.carousel__slide_gal:nth-child(10) {
+  background-image: url('https://i.postimg.cc/13LxsGz4/PHOTO-2020-08-20-19-52-51.jpg');
+}
+.carousel__slide_gal:nth-child(11) {
+  background-image: url('https://i.postimg.cc/2yHJJvJk/PHOTO-2020-08-20-19-52-52-2.jpg');
+}
+
+.carousel__slide_gal:nth-child(12) {
+  background-image: url('https://i.postimg.cc/Qthyd0ZN/PHOTO-2020-08-20-19-56-21-2.jpg');
+}
+
+.carousel__slide_gal:nth-child(13) {
+  background-image: url('https://i.postimg.cc/bvj6m3J0/PHOTO-2020-08-20-19-56-21.jpg');
+}
+.carousel__slide_gal:nth-child(14) {
+  background-image: url('https://i.postimg.cc/mgSd67F0/rosapenna-sunny.jpg');
+}
+
+.carousel__slide_gal:nth-child(15) {
+  background-image: url('https://i.postimg.cc/pT3knZgn/fairway-walk-rosapenna.jpg');
+}
+
+.carousel__slide_gal:nth-child(16) {
+  background-image: url('https://i.postimg.cc/htKsxh3M/green-rosapenna.jpg');
+}
+.carousel__slide_gal:nth-child(17) {
+  background-image: url('https://i.postimg.cc/B6PBsFXZ/milo-candid-rosapenna.jpg');
+}
+
+.carousel__slide_gal:nth-child(18) {
+  background-image: url('https://i.postimg.cc/sx9SD4yz/milo-rosapenna.jpg');
+}
+
+.carousel__slide_gal:nth-child(19) {
+  background-image: url('https://i.postimg.cc/JzNKgZSb/group-rosapenna-tom-morris.jpg');
+}
+.carousel__slide_gal:nth-child(20) {
+  background-image: url('https://i.postimg.cc/TYJSBzz7/trio-rosapenna.jpg');
+}
+
+.carousel__slide_gal:nth-child(21) {
+  background-image: url('https://i.postimg.cc/t4grwYtJ/five-rosapenna.jpg');
+}
+
+.carousel__slide_gal:nth-child(22) {
+  background-image: url('https://i.postimg.cc/g2fvsJgf/PHOTO-2020-08-21-19-54-31-2.jpg');
+}
+
+.carousel__slide_gal:nth-child(23) {
+  background-image: url('https://i.postimg.cc/3rVJdvW5/PHOTO-2020-08-21-19-55-27.jpg');
+}
+
+.carousel__slide_gal:nth-child(24) {
+  background-image: url('https://i.postimg.cc/k4VGpFDs/PHOTO-2020-08-21-19-58-00.jpg');
+}
+
+.carousel__slide_gal:nth-child(25) {
+  background-image: url('https://i.postimg.cc/jSZjqk7v/PHOTO-2020-08-21-19-58-21.jpg');
+}
+
+.carousel__slide_gal:nth-child(26) {
+  background-image: url('https://i.postimg.cc/DZsFGC89/PHOTO-2020-08-21-19-58-23-2.jpg');
+}
+
+.carousel__slide_gal:nth-child(27) {
+  background-image: url('https://i.postimg.cc/d3wMyJMC/beach-ballycastle.jpg');
+}
+
+.carousel__slide_gal:nth-child(28) {
+  background-image: url('https://i.postimg.cc/wjPSkX8g/beach-photo.jpg');
+}
+
+.carousel__slide_gal:nth-child(29) {
+  background-image: url('https://i.postimg.cc/9fZNtsYY/PHOTO-2020-08-22-19-25-53-2.jpg');
+}
+
+.carousel__slide_gal:nth-child(30) {
+  background-image: url('https://i.postimg.cc/fbn8LBQt/PHOTO-2020-08-22-19-25-54.jpg');
+}
+
+.carousel__slide_gal:nth-child(31) {
+  background-image: url('https://i.postimg.cc/d05ZXV6s/PHOTO-2020-08-22-19-47-19-3.jpg');
+}
+
+.carousel__slide_gal:nth-child(32) {
+  background-image: url('https://i.postimg.cc/hPmZVfb7/PHOTO-2020-08-22-19-47-20.jpg');
+}
+
+.carousel__slide_gal:nth-child(33) {
+  background-image: url('https://i.postimg.cc/bwsJ6frb/murlough-bay-ballycastle.jpg');
+}
+
+.carousel__slide_gal:nth-child(34) {
+  background-image: url('https://i.postimg.cc/76pMLnRt/ballycastle-12th-green.jpg');
+}
+
+.carousel__slide_gal:nth-child(35) {
+  background-image: url('https://i.postimg.cc/63TYq3pq/7th-ballycastle.jpg');
+}
+
+.carousel__slide_gal:nth-child(36) {
+  background-image: url('https://i.postimg.cc/BnLST57B/hugo-tee-11th-ballycastle.jpg');
+}
+
+.carousel__slide_gal:nth-child(37) {
+  background-image: url('https://i.postimg.cc/sD1sz9zC/10-tee-ballycastle.jpg');
+}
+
+.carousel__slide_gal:nth-child(38) {
+  background-image: url('https://i.postimg.cc/cJ7NhFRw/17th-ballycastle.jpg');
+}
+
+.carousel__slide_gal:nth-child(39) {
+  background-image: url('https://i.postimg.cc/NMGZ4Bfv/PHOTO-2020-08-22-19-47-17.jpg');
+}
+
+.carousel__slide_gal:nth-child(40) {
+  background-image: url('https://i.postimg.cc/yY3tnfBx/PHOTO-2020-08-22-19-47-46.jpg');
+}
+
+.carousel__slide_gal:nth-child(41) {
+  background-image: url('https://i.postimg.cc/0QNHSnc8/rosapenna-milo-fairway.jpg');
+}
+
+.carousel__slide_gal:nth-child(42) {
+  background-image: url('https://i.postimg.cc/8zSGv8WN/handshake-goat.jpg');
+}
+
+.carousel__slide_gal:nth-child(43) {
+  background-image: url('https://i.postimg.cc/sgckZMs4/speech.jpg');
+}
+
+.carousel__slide_gal:nth-child(44) {
+  background-image: url('https://i.postimg.cc/9X7sY8cM/trophy-pres.jpg');
+}
+
+.carousel__slide_gal:before {
+  display: none;
+  content: counter(item);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-40%,70px);
+  color: #fff;
+  font-size: 2em;
+}
+
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+}
+
+@media (hover: hover) {
+  .carousel__snapper {
+    animation-name: tonext, snap;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .carousel__slide:last-child .carousel__snapper {
+    animation-name: tostart, snap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__snapper {
+    animation-name: none;
+  }
+}
+
+.carousel:hover .carousel__snapper,
+.carousel:focus-within .carousel__snapper {
+  animation-name: none;
+  // display: none;
+}
+
+.carousel__navigation {
+  // display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__navigation-list,
+.carousel__navigation-item {
+  display: inline-block;
+  // display: none;
+}
+
+.carousel__navigation-button {
+  // display: inline-block;
+  // display: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #333;
+  background-clip: content-box;
+  border: 0.25rem solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+  // display: inline-block;
+  // display: none;
+  position: absolute;
+  top: 0;
+  margin-top: 37.5%;
+  width: 2rem;
+  height: 2rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;
+}
+
+.carousel::before,
+.carousel__prev {
+  left: -5rem;
+}
+
+.carousel::after,
+.carousel__next {
+  right:-5rem;
+}
+
+.carousel::before,
+.carousel::after {
+  content: '';
+  z-index: 1;
+  background-color: $sig-green;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+.carousel::before {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.carousel::after {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+
+}

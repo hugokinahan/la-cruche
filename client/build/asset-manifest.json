@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07aa7473.chunk.css",
+    "main.js": "/static/js/main.7a0a4830.chunk.js",
+    "main.js.map": "/static/js/main.7a0a4830.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.120840cb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.120840cb.js.map",
+    "static/js/2.23da9fe8.chunk.js": "/static/js/2.23da9fe8.chunk.js",
+    "static/js/2.23da9fe8.chunk.js.map": "/static/js/2.23da9fe8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.07aa7473.chunk.css.map": "/static/css/main.07aa7473.chunk.css.map",
+    "static/js/2.23da9fe8.chunk.js.LICENSE.txt": "/static/js/2.23da9fe8.chunk.js.LICENSE.txt",
+    "static/media/7th ballycastle.c352b30f.jpg": "/static/media/7th ballycastle.c352b30f.jpg",
+    "static/media/beach-photo.8375fc1e.jpg": "/static/media/beach-photo.8375fc1e.jpg",
+    "static/media/boys-portrush-group.09735830.jpg": "/static/media/boys-portrush-group.09735830.jpg",
+    "static/media/group-portrush.e4946c30.jpg": "/static/media/group-portrush.e4946c30.jpg",
+    "static/media/group-rosapenna-tom-morris.4795d702.jpg": "/static/media/group-rosapenna-tom-morris.4795d702.jpg",
+    "static/media/handshake-goat.e8767cd0.jpg": "/static/media/handshake-goat.e8767cd0.jpg",
+    "static/media/la-cruche-trophy.8730228c.jpeg": "/static/media/la-cruche-trophy.8730228c.jpeg",
+    "static/media/logo.382e15ab.jpg": "/static/media/logo.382e15ab.jpg",
+    "static/media/milo-candid-rosapenna.fd55f567.jpg": "/static/media/milo-candid-rosapenna.fd55f567.jpg",
+    "static/media/milo-rosapenna-swing.6ebebed8.jpg": "/static/media/milo-rosapenna-swing.6ebebed8.jpg",
+    "static/media/portrush-wet.b266fc57.MP4": "/static/media/portrush-wet.b266fc57.MP4",
+    "static/media/rosapenna-milo-fairway.fe83722a.jpg": "/static/media/rosapenna-milo-fairway.fe83722a.jpg",
+    "static/media/tom-young-hole-in-one.bb0b0739.jpg": "/static/media/tom-young-hole-in-one.bb0b0739.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.120840cb.js",
+    "static/js/2.23da9fe8.chunk.js",
+    "static/css/main.07aa7473.chunk.css",
+    "static/js/main.7a0a4830.chunk.js"
+  ]
+}

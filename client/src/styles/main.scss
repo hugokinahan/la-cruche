@@ -1,0 +1,36 @@
+@import '_nav.scss';
+@import '_members.scss';
+@import '_leaderboards.scss';
+@import '_courses.scss';
+@import '_about.scss';
+@import '_blog.scss';
+@import '_home.scss';
+@import '_rules.scss';
+@import '_contact.scss';
+@import '_gallery2020.scss';
+@import '_media_queries.scss';
+
+
+$sig-green: #003f2a;
+$sig-yellow: #e7f900;
+
+* {
+  box-sizing: border-box;
+} 
+
+.footer {
+  height: 5%;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 3px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: $sig-green;
+  color: white;
+  text-align: center;
+}
+

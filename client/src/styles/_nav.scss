@@ -1,0 +1,202 @@
+$sig-green: #003f2a;
+$sig-yellow: #e7f900;
+
+
+.nav-bar {
+  height: 100%;
+  // width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  transition: 0.5s ease;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+    img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 100px;
+    margin-bottom: 50px;
+  }
+    .nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+}
+
+.title {
+  top: 0;
+  left: 0;
+  height: 12%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $sig-green;
+  position: fixed;
+  h1 {
+    top: 0;
+    margin-top: 10%;
+    font-size: 60px;
+    background-color: transparent;
+    font-family: 'Tangerine', cursive;
+    font-weight: 100; 
+    letter-spacing: 3px;
+    color: white;
+    text-decoration: none;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.past-winner {
+  left: 0;
+  margin-top: -60px;
+  // margin-top: -50px;
+  margin-right: auto;
+  // margin-left: 6px;
+  width: 100%;
+  padding: 5px;
+  // border-top: 1px solid white;
+  // border-left: 1px solid white;
+  // border-right: 1px solid white;
+  background-color: $sig-green;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+// .burger-menu {
+//   position: absolute;
+//   top: 5%;
+//   right: 2rem;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   width: 2rem;
+//   height: 2rem;
+//   background: transparent;
+//   cursor: pointer;
+//   padding: 0;
+//   z-index: 10;
+//   span {
+//     width: 2rem;
+//     height: 0.25rem;
+//     background: white;
+//     border-radius: 10px;
+//     transition: all 0.3s linear;
+//     position: relative;
+//     transform-origin: 1px;
+//   }
+// }
+
+.bm-menu {
+  width: 250px;
+}
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: white;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+  border-radius: 100px;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  margin-right: 50px;
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #003f2a;
+  padding: 2em 1.5em 0;
+  font-size: 1em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+// .burger-menu-items {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   background: blue;
+//   height: 100vh;
+//   text-align: left;
+//   padding: 2rem;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   transition: transform 0.3s ease-in-out;
+//   a {
+//     font-size: 2rem;
+//     text-transform: uppercase;
+//     padding: 2rem 0;
+//     font-weight: bold;
+//     letter-spacing: 0.5rem;
+//     color: white;
+//     text-decoration: none;
+//     transition: color 0.3s linear;
+    
+//     // @media (max-width: ${({ theme }) => theme.mobile}) {
+//     //   font-size: 1.5rem;
+//     //   text-align: center;
+//     // }
+
+//     // &:hover {
+//     //   color: ${({ theme }) => theme.primaryHover};
+//     // }
+//   }
+// }

@@ -1,0 +1,47 @@
+.rules-header {
+  margin-top: 160px;
+  text-align: center;
+  font-size: 41px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: $sig-green;
+  letter-spacing: 3px;
+}
+
+.rules-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 130vh;
+  width: 85%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: $sig-green;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: justify;
+  img {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 100px;
+    margin-bottom: 20px;
+  }
+}
+
+.indented-points {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.games-header {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: $sig-green;
+  letter-spacing: 3px;
+}

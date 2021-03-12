@@ -1,0 +1,101 @@
+.blog-content {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  // margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  h5 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: $sig-green;
+    letter-spacing: 3px;
+    text-align: center;
+  }
+}
+
+.blog-header {
+  text-align: center;
+  font-size: 41px;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: $sig-green;
+  letter-spacing: 3px;
+}
+
+.blog-card {
+  width: 75%;
+  border: 3px solid $sig-green;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+  img {
+    width: 300px;
+    // padding: 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+  }
+  .blog-card-content {
+    h2 {
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      color: $sig-green;
+      letter-spacing: 1px;
+    }
+    p {
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 100;
+      color: $sig-green;
+      letter-spacing: 1px;
+      line-height: 1.5;
+    }
+    Button {
+      padding: 10px;
+      margin: 10px 10px;
+      width: auto;
+    }
+  }
+}
+
+.review-blog-content {
+  background-color: white;
+  height: 1120vh;
+  width: 85%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color: $sig-green;
+  letter-spacing: 1px;
+  width: 85%;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: justify;
+  .hugo-account {
+    width: 85%;
+    margin: 0 auto;
+  }
+  img {
+    border-radius: 10px;
+    margin-left: 25%;
+    width: 50%;
+    height: auto;
+    // margin-bottom: 20px;
+  }
+  .react-player {
+    margin: 0 auto;
+  }
+  .italic {
+    font-style: italic;
+  }
+  .span-italic {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+  }
+}
