@@ -98,10 +98,17 @@ function Home() {
             <div className="latest-news">
               <h2>Latest News</h2>
               <div className="news-card">
-                <img alt="logo-golf" src={logo} />
+              <img alt="logo-golf" src={logo} />
                 <p>
-                  Read our latest blog as Milo Reviews the 2020 Tour of Northern
-                  Ireland
+                  Find out who we tipped to win the WGC Dell Technologies Match Play as Joe takes you through the picks
+                </p>
+                <Link to="/blog/wgc">
+                  <Button>Read More</Button>
+                </Link>
+              </div>
+              <div className="news-card">
+                <p>
+                  Read Milo's recollection of the trials and tribulations of the 2020 Tour of Northern Ireland
                 </p>
                 <Link to="/blog/review-2020">
                   <Button>Read More</Button>
@@ -114,15 +121,6 @@ function Home() {
                 </p>
                 <Link to="/members">
                   <Button>Members</Button>
-                </Link>
-              </div>
-              <div className="news-card">
-                <p>
-                  Explore the incredible golf courses we've played and those on
-                  the list for future tours
-                </p>
-                <Link to="/courses">
-                  <Button>Our Golf Courses</Button>
                 </Link>
               </div>
             </div>
