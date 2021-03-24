@@ -12,6 +12,16 @@ function Blog() {
       <Nav />
       <div className="blog-content">
         <h1 className="blog-header">Blog</h1>
+                <div className='blog-card'>
+          <img alt='logo' src='https://pbs.twimg.com/profile_images/1085971315201376256/s7kHezHp_400x400.jpg' />
+          <div className='blog-card-content'>
+          <h2>2021 WGC Match Play Tips</h2>
+          <p>Joe reveals the tips from each La Cruche member as the golfing world descends on Austin, Texas.</p>
+          <Link to='/blog/wgc'>
+          <Button>Read More</Button>
+          </Link>
+          </div>
+        </div>
         <div className='blog-card'>
           <img alt='logo' src={Image1} />
           <div className='blog-card-content'>

@@ -23,6 +23,7 @@ function Review2020() {
         <h1 className="blog-header">La Cruche 2020 Review</h1>
         <h5>By Milo Shirley</h5>
         <div className="review-blog-content">
+        <img className='author-headshot' src='https://i.postimg.cc/T1R4J7Kp/milo-headshot.jpg' alt='author'/>
           <p>
             La Cruche’s inaugural tour along the North Coast epitomised
             everything about what makes golf in Northern Ireland great:
@@ -155,7 +156,7 @@ function Review2020() {
               Milo resorting to hitting irons off the tee at Rosapenna.
             </span>
             <p>
-              Grouped with Hugo, Rhodes and Yungy, I was first to tee off thanks
+              Grouped with Hugo, Rhodes and Youngy, I was first to tee off thanks
               to my new favourite piece of clothing... It quickly becomes
               apparent to all 4 of us that we could have left our drivers at
               home. This place is a playground for the stinger- if we could hit
@@ -337,7 +338,7 @@ function Review2020() {
             </p>
             <p>
               In what can only be described as driving over the limit, we make
-              it down the A26 just in time for our midday tee-time. Yungy’s ace
+              it down the A26 just in time for our midday tee-time. Youngy’s ace
               seemingly gave everyone an excuse to drink their bodyweight in
               Smithwicks last night- that coupled with Fitz’ discovery of Baby
               Guinness. As I tee off with blurred vision and a pounding

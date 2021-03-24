@@ -104,7 +104,7 @@ export default [
     favLCMemory: 'The invitation'
   },
   {
-    name: 'Joe ‘Sung-Jae’ Mellor', 
+    name: 'Joe ‘Sungjae’ Mellor', 
     image: 'https://i.postimg.cc/zvVfvjqR/joe-headshot.jpg', 
     handicap: '20',
     homeCourse: 'None - street golf specialist',
