@@ -26,8 +26,6 @@ function Review2020() {
             </p>
             <p>Without further ado, the members have had their say and have gone with the following picks:</p>
             <img src={mastersTips} alt='tips' />
-            <p>One point will be placed on each bet, while E/W winnings will NOT be split between those who exit at the quarter final stage.
-            </p>
           </div>
         </div>
       </div>
