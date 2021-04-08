@@ -100,9 +100,9 @@ function Home() {
               <div className="news-card">
               <img alt="logo-golf" src={logo} />
                 <p>
-                  Find out who we tipped to win the WGC Dell Technologies Match Play as Joe takes you through the picks
+                  Find out who we tipped to win the 2021 Masters as Joe takes you through the picks
                 </p>
-                <Link to="/blog/wgc">
+                <Link to="/blog/masters21">
                   <Button>Read More</Button>
                 </Link>
               </div>

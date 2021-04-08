@@ -7,6 +7,7 @@ import Blog from './components/common/Blog'
 import Gallery2020 from './components/common/blogs/Gallery2020'
 import Review2020 from './components/common/blogs/Review2020'
 import WGCDellTech from './components/common/blogs/WGCDellTech'
+import Masters21 from './components/common/blogs/Masters21'
 import Contact from './components/common/Contact'
 import Courses from './components/common/Courses'
 import Home from './components/common/Home'
@@ -23,6 +24,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/blog/masters21" component={Masters21} />
         <Route path="/blog/wgc" component={WGCDellTech} />
         <Route path="/tours/gallery-2020" component={Gallery2020} />
         <Route path="/blog/review-2020" component={Review2020} />
