@@ -32,14 +32,35 @@ function Tours() {
           </div>
         </div>
         <div className="blog-card">
+          <img alt="logo" src="https://golf-pass.brightspotcdn.com/dims4/default/b818c56/2147483647/strip/true/crop/1024x661+0+31/resize/930x600!/quality/90/?url=https%3A%2F%2Fgolf-pass-brightspot.s3.amazonaws.com%2Fd9%2F0b%2F2f370834cdd43515c5e43d102de0%2F60045.jpg" />
+          <div className="blog-card-content">
+            <h2>La Cruche 2021, Wales</h2>
+            <p>
+              With the perils of the pandemic striking again, the original La Cruche 2021 Tour to France was postponed to 2022. Nevertheless, this gives us the opportunity to sample maybe one of the more underrated spots of UK golf - South Wales.
+            </p>
+            <a href="https://www.pandkgolfclub.co.uk/">
+              <Button>Pyle & Kenfig Golf Club</Button>
+            </a>
+            <a href="https://ashburnhamgolfclub.co.uk/">
+              <Button>Ashburnham Golf Club</Button>
+            </a>
+            <a href="https://www.machynys.com/">
+              <Button>Machynys Peninsula Golf Club</Button>
+            </a>
+            <Link to="/courses">
+              <Button>Map View</Button>
+            </Link>
+          </div>
+        </div>
+        <div className="blog-card">
           <img
             alt="logo"
-            src="https://www.letouquetgolfresort.com/_files/_cache/1/resize/1920-0.ratio/93fa0f2516dd60f3d7851a38504ff725.jpg"
+            src="https://www.opengolfclub.com/wp-content/uploads/2020/07/le_touquet_golf_resort_parcours_la_mer-1.jpg"
           />
           <div className="blog-card-content">
-            <h2>La Cruche 2021, France</h2>
+            <h2>La Cruche 2022, France</h2>
             <p>
-              In 2021, La Cruche will descend on North-West France, playing two
+              In 2022, La Cruche will descend on North-West France, playing two
               rounds at Le Touquet Golf Resort and two at the nearby Les Golfs
               d'Hardelot.
             </p>

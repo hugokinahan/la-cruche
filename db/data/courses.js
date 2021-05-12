@@ -69,5 +69,32 @@ export default [
     continent: 'Europe',
     latitude: 50.624449,
     longitude: 1.611433,
+  },
+  {
+    name: 'Pyle and Kenfig Golf Club',
+    image: 'https://www.pandkgolfclub.co.uk/uploads/featured/hole14-close.jpg',
+    city: 'Waun-y-mer',
+    country: 'Wales',
+    continent: 'Europe',
+    latitude: 51.511715,
+    longitude: -3.726090,
+  },
+  {
+    name: 'Ashburnham Golf Club',
+    image: 'https://www.golfboo.com/sites/default/files/styles/612x372/public/campos_golf_images/148328/p180n8p3tooaq1a16151cgq61q6q4.jpg',
+    city: 'Burry Port',
+    country: 'Wales',
+    continent: 'Europe',
+    latitude: 51.68152135,
+    longitude: -4.282995706436683,
+  },
+  {
+    name: 'Machynys Peninsula Golf Club',
+    image: 'https://golf-pass.brightspotcdn.com/dims4/default/b818c56/2147483647/strip/true/crop/1024x661+0+31/resize/930x600!/quality/90/?url=https%3A%2F%2Fgolf-pass-brightspot.s3.amazonaws.com%2Fd9%2F0b%2F2f370834cdd43515c5e43d102de0%2F60045.jpg',
+    city: 'Llanelli',
+    country: 'Wales',
+    continent: 'Europe',
+    latitude: 51.66126933893329,
+    longitude: -4.147295951843263,
   }
 ]

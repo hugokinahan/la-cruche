@@ -12,7 +12,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.11.9",
     "mongoose-unique-validator": "^2.0.3",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.0",
     "react-burger-menu": "^3.0.3",
     "react-icons": "^4.2.0",
     "react-instagram-authless-feed": "jamesmoriarty/react-instagram-authless-feed",
