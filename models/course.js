@@ -8,7 +8,7 @@ const coursesSchema = new mongoose.Schema({
   country: { type: String, required: true }, 
   continent: { type: String, required: true },
   latitude: { type: Number, required: true },
-  longitude: { type: Number, required: true }
+  longitude: { type: Number, required: true },
 })
 
 coursesSchema.plugin(uniqueValidator)

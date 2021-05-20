@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import About from './components/common/About'
 import Blog from './components/common/Blog'
+import PGA21 from './components/common/blogs/PGA21'
 import Gallery2020 from './components/common/blogs/Gallery2020'
 import Review2020 from './components/common/blogs/Review2020'
 import WGCDellTech from './components/common/blogs/WGCDellTech'
@@ -24,6 +25,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/blog/pga21" component={PGA21} />
         <Route path="/blog/masters21" component={Masters21} />
         <Route path="/blog/wgc" component={WGCDellTech} />
         <Route path="/tours/gallery-2020" component={Gallery2020} />
