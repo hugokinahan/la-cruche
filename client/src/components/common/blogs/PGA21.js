@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../Nav'
 import Footer from '../Footer'
 
-import pga21tips from '../../images/pga21tips.png'
+import pga21tips from '../../images/pga21tips.jpeg'
 
 function PGA21() {
 
