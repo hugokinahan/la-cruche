@@ -100,9 +100,9 @@ function Home() {
               <div className="news-card">
               <img alt="logo-golf" src={logo} />
                 <p>
-                  Find out who we tipped to win the 2021 Masters as Joe takes you through the picks
+                  Find out who we tipped to win the 2021 PGA Championship as Joe takes you through the picks at Kiawah Island
                 </p>
-                <Link to="/blog/masters21">
+                <Link to="/blog/pga21">
                   <Button>Read More</Button>
                 </Link>
               </div>

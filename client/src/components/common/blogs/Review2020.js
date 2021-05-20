@@ -5,7 +5,7 @@ import Footer from '../Footer'
 
 import Image1 from '../../images/group-portrush.jpg'
 import Image2 from '../../images/boys-portrush-group.jpg'
-import PRVideo from '../../images/portrush-wet.MP4'
+import PRVideo from '../../images/.portrush-wet.MP4.icloud'
 import Image3 from '../../images/group-rosapenna-tom-morris.jpg'
 import Image4 from '../../images/milo-rosapenna-swing.jpg'
 import Image5 from '../../images/rosapenna-milo-fairway.jpg'
