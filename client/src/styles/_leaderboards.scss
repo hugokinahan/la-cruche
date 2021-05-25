@@ -1,3 +1,8 @@
+.leaderboard-content {
+  height: 150vh;
+}
+
+
 .leaderboards-header {
   margin-top: 160px;
   text-align: center;
@@ -17,6 +22,13 @@
   font-weight: 100;
   color: $sig-green;
   letter-spacing: 3px;
+}
+
+.leaderboard-button {
+  width: 200px;
+  padding: 5px;
+  border-radius: 10px;
+  color: #003f2a;
 }
 
 .table-one {

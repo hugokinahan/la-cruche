@@ -13,6 +13,16 @@ function Blog() {
       <div className="blog-content">
         <h1 className="blog-header">Blog</h1>
         <div className='blog-card'>
+          <img alt='logo' src='https://i.insider.com/60aaef33f27b4c00194461b8?width=700' />
+          <div className='blog-card-content'>
+          <h2>The PGA Championship 2021 Picks</h2>
+          <p>Find out who we tipped to win the 2021 PGA Championship as Joe takes you through the picks at Kiawah Island</p>
+          <Link to='/blog/pga21'>
+          <Button>Read More</Button>
+          </Link>
+          </div>
+          </div>
+        <div className='blog-card'>
           <img alt='logo' src='https://www.wsav.com/wp-content/uploads/sites/75/2021/03/Masters-UPDATED-1.jpg?w=1920&h=1080&crop=1' />
           <div className='blog-card-content'>
           <h2>The Masters 2021 Picks</h2>
