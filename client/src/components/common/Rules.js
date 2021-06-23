@@ -23,8 +23,8 @@ function Rules() {
           </p>
           <p>
             3. In order to save time, La Cruche uses a ‘social’ alternative in
-            the event of a lost of out of bounds ball; place the ball on the
-            fairway or short rough adjacent to where you think the ball may have
+            the event of a lost of out of bounds ball; place the ball in the
+            short rough adjacent to where you think the ball may have
             become lost or gone out of bounds and add a penalty stroke.
             Otherwise know as an ‘Irish drop’.
           </p>
@@ -50,6 +50,7 @@ function Rules() {
             reported by two or more players in the same group will face a
             forfeit.
           </p>
+          <p>6. In the event of a tie at the end of 72 holes, a playoff will ensue. This is dependent on permission from the golf club to do so. If a playoff cannot happen, the player with the highest individual score in one of their four rounds wins.</p>
           <div>
             <h2 className='games-header'>Games</h2>
             <p>
