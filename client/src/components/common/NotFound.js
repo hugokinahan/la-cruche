@@ -3,7 +3,6 @@ import Nav from './Nav'
 import Footer from './Footer'
 import { GiphyFetch } from '@giphy/js-fetch-api'
 import { Gif } from '@giphy/react-components'
-import { Link } from 'react-router-dom'
 
 const giphyFetch = new GiphyFetch('KxoIICdK3D188v7YEaw3EgBClRH8Tc3g')
 const gifsArray = [
