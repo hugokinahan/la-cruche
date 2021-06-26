@@ -47,7 +47,8 @@ function LC2021() {
               </Table.Cell>
               <Table.Cell className="phone-hide">18</Table.Cell>
               <Table.Cell className="phone-hide">21</Table.Cell>
-              <Table.Cell className="yellow-jersey">35
+              <Table.Cell className="phone-hide">
+                <span className="yellow-jersey">35</span>
               </Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
               <Table.Cell></Table.Cell>
@@ -64,7 +65,9 @@ function LC2021() {
             </Table.Row>
             <Table.Row>
               <Table.Cell>Harry FitzGerald (9)</Table.Cell>
-              <Table.Cell className="yellow-jersey">30</Table.Cell>
+              <Table.Cell className="phone-hide">
+                <span className="yellow-jersey">30</span>
+              </Table.Cell>
               <Table.Cell className="phone-hide">34</Table.Cell>
               <Table.Cell className="phone-hide">26</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
@@ -97,7 +100,8 @@ function LC2021() {
             <Table.Row>
               <Table.Cell>Harry Rees(18)</Table.Cell>
               <Table.Cell className="phone-hide">18</Table.Cell>
-              <Table.Cell className="yellow-jersey">41
+              <Table.Cell className="phone-hide">
+                <span className="yellow-jersey">41</span>
               </Table.Cell>
               <Table.Cell className="phone-hide">29</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
