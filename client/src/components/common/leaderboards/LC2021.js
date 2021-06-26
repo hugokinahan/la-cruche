@@ -36,7 +36,7 @@ function LC2021() {
               Ashburnham Golf Club
               </Table.HeaderCell>
               <Table.HeaderCell>Points Total</Table.HeaderCell>
-              <Table.HeaderCell>Final Standings</Table.HeaderCell>
+              <Table.HeaderCell>Standings</Table.HeaderCell>
             </Table.Row>
           </Table.Header>
 
@@ -51,8 +51,8 @@ function LC2021() {
                 <span className="yellow-jersey">35</span>
               </Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
-              <Table.Cell></Table.Cell>
-              <Table.Cell></Table.Cell>
+              <Table.Cell>74</Table.Cell>
+              <Table.Cell>9th</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Jamie Cunningham (18)</Table.Cell>
@@ -60,8 +60,8 @@ function LC2021() {
               <Table.Cell className="phone-hide">21</Table.Cell>
               <Table.Cell className="phone-hide">27</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
-              <Table.Cell></Table.Cell>
-              <Table.Cell></Table.Cell>
+              <Table.Cell>64</Table.Cell>
+              <Table.Cell>10th</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Harry FitzGerald (9)</Table.Cell>
@@ -71,8 +71,8 @@ function LC2021() {
               <Table.Cell className="phone-hide">34</Table.Cell>
               <Table.Cell className="phone-hide">26</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
-              <Table.Cell></Table.Cell>
-              <Table.Cell></Table.Cell>
+              <Table.Cell>90</Table.Cell>
+              <Table.Cell>1st</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Paul Kidd (12)</Table.Cell>
@@ -80,6 +80,8 @@ function LC2021() {
               <Table.Cell className="phone-hide">27</Table.Cell>
               <Table.Cell className="phone-hide">25</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
+              <Table.Cell>77</Table.Cell>
+              <Table.Cell>6th=</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Hugo Kinahan (12)</Table.Cell>
@@ -87,6 +89,8 @@ function LC2021() {
               <Table.Cell className="phone-hide">27</Table.Cell>
               <Table.Cell className="phone-hide">28</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
+              <Table.Cell>85</Table.Cell>
+              <Table.Cell>4th</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Joe Mellor (18)</Table.Cell>
@@ -94,8 +98,8 @@ function LC2021() {
               <Table.Cell className="phone-hide">26</Table.Cell>
               <Table.Cell className="phone-hide">30</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
-              <Table.Cell></Table.Cell>
-              <Table.Cell></Table.Cell>
+              <Table.Cell>77</Table.Cell>
+              <Table.Cell>6th=</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Harry Rees(18)</Table.Cell>
@@ -105,9 +109,9 @@ function LC2021() {
               </Table.Cell>
               <Table.Cell className="phone-hide">29</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
-              <Table.Cell>
+              <Table.Cell>88
               </Table.Cell>
-              <Table.Cell>
+              <Table.Cell>2nd
               </Table.Cell>
             </Table.Row>
             <Table.Row>
@@ -116,8 +120,8 @@ function LC2021() {
               <Table.Cell className="phone-hide">24</Table.Cell>
               <Table.Cell className="phone-hide">28</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
-              <Table.Cell></Table.Cell>
-              <Table.Cell></Table.Cell>
+              <Table.Cell>77</Table.Cell>
+              <Table.Cell>6th=</Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Milo Shirley (10)</Table.Cell>
@@ -127,7 +131,9 @@ function LC2021() {
               <Table.Cell className="phone-hide">26</Table.Cell>
               <Table.Cell className="phone-hide">
               </Table.Cell>
-              <Table.Cell>
+              <Table.Cell>83
+              </Table.Cell>
+              <Table.Cell>5th
               </Table.Cell>
             </Table.Row>
             <Table.Row>
@@ -136,8 +142,8 @@ function LC2021() {
               <Table.Cell className="phone-hide">27</Table.Cell>
               <Table.Cell className="phone-hide">30</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
-              <Table.Cell></Table.Cell>
-              <Table.Cell></Table.Cell>
+              <Table.Cell>87</Table.Cell>
+              <Table.Cell>3rd</Table.Cell>
             </Table.Row>
           </Table.Body>
           {/* 
