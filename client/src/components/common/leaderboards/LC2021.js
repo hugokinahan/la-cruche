@@ -60,7 +60,7 @@ function LC2021() {
               <Table.Cell className="phone-hide">21</Table.Cell>
               <Table.Cell className="phone-hide">27</Table.Cell>
               <Table.Cell className="phone-hide"></Table.Cell>
-              <Table.Cell>64</Table.Cell>
+              <Table.Cell>66</Table.Cell>
               <Table.Cell>10th</Table.Cell>
             </Table.Row>
             <Table.Row>
