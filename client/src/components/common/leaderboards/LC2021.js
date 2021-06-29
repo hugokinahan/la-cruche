@@ -50,7 +50,9 @@ function LC2021() {
               <Table.Cell className="phone-hide">
                 <span className="yellow-jersey">35</span>
               </Table.Cell>
-              <Table.Cell className="phone-hide">31</Table.Cell>
+              <Table.Cell className="phone-hide">
+                <span className="yellow-jersey">31</span>
+              </Table.Cell>
               <Table.Cell>105</Table.Cell>
               <Table.Cell>7th</Table.Cell>
             </Table.Row>
@@ -71,8 +73,16 @@ function LC2021() {
               <Table.Cell className="phone-hide">34</Table.Cell>
               <Table.Cell className="phone-hide">26</Table.Cell>
               <Table.Cell className="phone-hide">27</Table.Cell>
-              <Table.Cell>117</Table.Cell>
-              <Table.Cell>2nd</Table.Cell>
+              <Table.Cell>
+                <span className="second">
+                  117
+                </span>
+              </Table.Cell>
+              <Table.Cell>
+                <span className="second">
+                  2nd
+                </span>
+              </Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Paul Kidd (12)</Table.Cell>
@@ -89,8 +99,16 @@ function LC2021() {
               <Table.Cell className="phone-hide">27</Table.Cell>
               <Table.Cell className="phone-hide">28</Table.Cell>
               <Table.Cell className="phone-hide">28</Table.Cell>
-              <Table.Cell>113</Table.Cell>
-              <Table.Cell>3rd</Table.Cell>
+              <Table.Cell>
+                <span className="third">
+                  113
+                </span>
+              </Table.Cell>
+              <Table.Cell>
+                <span className="third">
+                  3rd
+                </span>
+              </Table.Cell>
             </Table.Row>
             <Table.Row>
               <Table.Cell>Joe Mellor (18)</Table.Cell>
@@ -108,12 +126,16 @@ function LC2021() {
                 <span className="yellow-jersey">41</span>
               </Table.Cell>
               <Table.Cell className="phone-hide">29</Table.Cell>
-              <Table.Cell className="phone-hide">
-                <span className="yellow-jersey">31</span>
+              <Table.Cell className="phone-hide">30</Table.Cell>
+              <Table.Cell>
+                <span className="yellow-jersey">
+                  118
+                </span>
               </Table.Cell>
-              <Table.Cell>118
-              </Table.Cell>
-              <Table.Cell>1st
+              <Table.Cell>
+                <span className="yellow-jersey">
+                  1st
+                </span>
               </Table.Cell>
             </Table.Row>
             <Table.Row>
