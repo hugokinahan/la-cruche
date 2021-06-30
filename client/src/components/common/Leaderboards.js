@@ -21,6 +21,7 @@ function Leaderboards() {
         <h1 className="leaderboards-header">Leaderboards</h1>
         <select onChange={handleSelect} className='leaderboard-button'>
           <option >All</option>
+          <option >Legacy</option>
           <option >Northern Ireland 2020</option>
           <option >Wales 2021</option>
         </select>
