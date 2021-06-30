@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Footer from './Footer'
 import LC2020 from './leaderboards/LC2020'
 import LC2021 from './leaderboards/LC2021'
+import Legacy from './leaderboards/Legacy'
 
 function Leaderboards() {
 
@@ -41,12 +42,22 @@ function Leaderboards() {
         :
         ''
   }
+            {selectInput === 'Legacy' ?
+        <div>
+          <h2 className="sub-heading">Legacy Leaderboard</h2>
+          <Legacy />
+        </div>
+        :
+        ''
+  }
             {selectInput === 'All' ?
         <div>
           <h2 className="sub-heading">Northern Ireland Tour 2020</h2>
           <LC2020 /> 
           <h2 className="sub-heading">Wales Tour 2021</h2>
           <LC2021 />
+          <h2 className="sub-heading">Legacy Leaderboard</h2>
+          <Legacy />
         </div>
         :
         ''
