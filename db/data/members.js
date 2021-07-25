@@ -92,7 +92,7 @@ export default [
   },
   {
     name: 'Paul Kidd', 
-    image: 'https://scontent-lhr8-2.xx.fbcdn.net/v/t1.0-9/38085579_2641576792534973_7525493163197202432_n.jpg?_nc_cat=105&ccb=3&_nc_sid=8bfeb9&_nc_ohc=02YdArwq64EAX_u2RRN&_nc_ht=scontent-lhr8-2.xx&oh=916a533e8963711589b64eeda0a06624&oe=606769D5', 
+    image: 'https://i.postimg.cc/ydgzQMcW/paul-headshot.png', 
     handicap: '12',
     homeCourse: 'Monifieth Golf Links',
     favCoursePlayed: 'The Carrick on Loch Lomond', 

@@ -40,7 +40,7 @@ function NotFound() {
     <section>
       <Nav />
       <div className='notfound-content'>
-      <h1 className='about-header'>Fore! The requested URL was not found!</h1>{' '}
+      <h1 className='about-header'>Fore-Oh-Fore! The requested URL was not found!</h1>{' '}
               <div className="gif">{gif && <Gif gif={gif}  />}</div>
       </div>
       <Footer />
