@@ -1,6 +1,27 @@
 import React from 'react'
 import Nav from '../Nav'
 import Footer from '../Footer'
+import ReactPlayer from 'react-player'
+
+import imageOne from '../../images/wales/IMG_6141.jpg'
+import imageTwo from '../../images/wales/IMG_6146.jpg'
+import imageThree from '../../images/wales/IMG_0003.jpg'
+import rhodesTrackman from '../../images/wales/rhodes-trackman.MP4'
+import paulPK from '../../images/wales/paul-pk.MP4'
+import imageFour from '../../images/wales/IMG_0065.jpg'
+import imageFive from '../../images/wales/IMG_0007.jpg'
+import imageSix from '../../images/wales/IMG_0011.jpg'
+import imageSeven from '../../images/wales/IMG_0013.jpg'
+import imageEight from '../../images/wales/IMG_0061.jpg'
+import imageNine from '../../images/wales/IMG_6163.jpg'
+import imageTen from '../../images/wales/IMG_0057.jpg'
+import joePutt from '../../images/wales/joe-putt-machynys.MP4'
+import imageEleven from '../../images/wales/IMG_6168.jpg'
+import imageTwelve from '../../images/wales/IMG_6157.jpg'
+import imageThirteen from '../../images/wales/IMG_6181.jpg'
+import imageFourteen from '../../images/wales/IMG_6177.jpg'
+
+
 
 function Review2021() {
 
@@ -23,6 +44,7 @@ function Review2021() {
             speak on behalf of all of us when I say that we were very pleasantly
             surprised. Good food, great golf, and the best people. Rhyfeddol!
           </p>
+          <img alt='Wales' src={imageOne} className="portrait"/>
           <div className="round-one">
             <h2>23rd June 2021</h2>
             <p className="italic">
@@ -55,6 +77,7 @@ function Review2021() {
               it was time to leave England behind and head to our 13.40 at Pyle
               and Kenfig.
             </p>
+            <img src={imageThree} alt="Milo and Joe" className="portrait" />
             <p>
               We decided it would be a good idea to spend some time on the range
               to shake-off the cobwebs and dial in the wedges. Speaking of being
@@ -76,6 +99,13 @@ function Review2021() {
               Mellor at all costs.” On the range that day he was a Trackman
               short of his tour-card, or so it appeared.
             </p>
+            <ReactPlayer
+              className="react-player"
+              url={rhodesTrackman}
+              width={500}
+              height={500}
+              controls={true}
+            />
             <p>
               With the range done for all except Alex- who at this point was
               busy unscrewing the upgraded-golf-swing-plane-training-aid from
@@ -103,6 +133,13 @@ function Review2021() {
               and started putting points on the board. I have never played a
               golf course whose 9s contrast so extremely.
             </p>
+            <ReactPlayer
+              className="react-player"
+              url={paulPK}
+              width={500}
+              height={500}
+              controls={true}
+            />
             <p>
               Think of the front as the gradual, slow, calm, clicking ascent of
               a rollercoaster. You’re relaxed, comfy and enjoying the ride,
@@ -125,6 +162,7 @@ function Review2021() {
               ball 300yds but in scrapping out a result on a very tough set of
               holes. A 7 for 1 for example. La Cruche loves a 7 for 1.
             </p>
+            <img alt="P&K" src={imageTwo} />
             <p>
               The wind died for our final three holes which opened the
               opportunity to score some points coming in. I sensed on the 18th
@@ -142,6 +180,7 @@ function Review2021() {
               2 and 3 with 4 of us tied for 1st on 30pts. Incredible given the
               tiny margin for error around Pyle & Kenfig.
             </p>
+            <img src={imageFour} alt="Group 3 off 18" />
             <p>
               With bags packed we headed for Burry Port: the Phuket of
               Carmarthenshire. I think Burry Port might just be my favourite
@@ -181,6 +220,8 @@ function Review2021() {
               second lowest combined score of any group across the two rounds-
               distance and difficulty do not always correlate.
             </p>
+            <img alt="Ashburnham" src={imageFive} className="portrait"/>
+            
             <p>
               Our group had a wholly uneventful round of golf but looking back
               what stuck with me was yet another par 3, the 6th. Marked as index
@@ -206,6 +247,7 @@ function Review2021() {
               points than it should have. First to finish, we sat on the
               elevated greenside and watched our fellow competitors come in.
             </p>
+            <img alt="Ashburnham Tee" src={imageSix} className="portrait"/>
             <p>
               Two scores on Friday stood out a cut above the field. Inevitably
               the GOAT had shaken off his first-round nerves and the pressure
@@ -215,6 +257,7 @@ function Review2021() {
               though was Fair-Weather-Fitz’ 34 points- off 8, that’s eight! -
               which would see him top the leader board heading into the weekend.
             </p>
+            <img alt="Ashburnham 18 Tee" src={imageSeven} className="portrait"/>
             <p>
               With cards signed and SweatyBall penalties consumed it was time to
               head home, freshen up and welcome the talented Dom Barnes to
@@ -239,6 +282,7 @@ function Review2021() {
               as we sipped on our Double Dragons tucked away in the corner of a
               pub in a corner of Wales that few have ever visited but should.
             </p>
+            <img alt="Arm Wrseting at The Zoo" src={imageEight} className="portrait"/>
           </div>
           <div className="round-three">
             <h2>26th June 2021 - Round 3 - Machynys Peninsula Golf Club</h2>
@@ -269,6 +313,7 @@ function Review2021() {
               but as Mellor himself will tell you, Pyle & Kenfig didn’t have
               wild geese roaming their driving range, did they Mellor?
             </p>
+            <img alt="Machynys Lunch" src={imageNine} />
             <p>
               The course was in fantastic condition. Wide fairways gave you a
               sense of freedom off the tee, while equally wide and relentlessly
@@ -280,6 +325,7 @@ function Review2021() {
               but playing it felt like a lot more than just piles of sand and
               water. Perhaps this is what Fleetwood was getting at.
             </p>
+            <img alt="Machynys Teebox" src={imageTen} />
             <p>
               I was paired with the GOAT and the criminal himself who, with
               12pts on the front, clearly let goose-gate get to him. His back 9
@@ -294,6 +340,13 @@ function Review2021() {
               didn’t drop too low and it being late meant the course was
               essentially our own.
             </p>
+            <ReactPlayer
+              className="react-player"
+              url={joePutt}
+              width={500}
+              height={500}
+              controls={true}
+            />
             <p>
               Notable scorers not in our group included an impressive 35-pointer
               from Barnes- a great round no-doubt helped by having the ball on a
@@ -313,6 +366,7 @@ function Review2021() {
               doesn’t make anyone else surrender.) It was time discuss pairings
               for Sunday at Ashburnham.
             </p>
+            <img src={imageEleven} alt="Group Machynys" />
           </div>
           <div className="round-four">
             <h2>27th June 2021 - Round 4 - Ashburnham Golf Club</h2>
@@ -334,6 +388,7 @@ function Review2021() {
               between the two range-cretins, and I was battling hard for a
               bronze medal.
             </p>
+            <img alt="Ashburnham" src={imageTwelve} />
             <p>
               For me personally this battle felt to be going to right way after
               a great birdie on 17. A 4-iron into the green from 200 yards and a
@@ -378,6 +433,7 @@ function Review2021() {
               play with. Fitz’ bogey on 18 wasn’t enough to turn the tide back
               in his favour.
             </p>
+            <img src={imageThirteen} alt="Group last hole" />
             <p>
               Sport has a funny way of replicating itself and just as he’d done
               9 months prior, GOAT intelligently left himself a comfy uphill
@@ -391,6 +447,7 @@ function Review2021() {
               Harry Rees. Is the three-peat on? Le 2k2k22 will answer that very
               question. Until then, get your lips off my noodle.
             </p>
+            <img src={imageFourteen} alt="Champion GOAT" className="portrait" />
           </div>
         </div>
       </div>
