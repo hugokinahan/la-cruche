@@ -7,6 +7,7 @@ import Blog from './components/common/Blog'
 import PGA21 from './components/common/blogs/PGA21'
 import Gallery2021 from './components/common/blogs/Gallery2021'
 import Review2020 from './components/common/blogs/Review2020'
+import Review2021 from './components/common/blogs/Review2021'
 import WGCDellTech from './components/common/blogs/WGCDellTech'
 import Masters21 from './components/common/blogs/Masters21'
 import Contact from './components/common/Contact'
@@ -31,6 +32,7 @@ function App() {
         <Route path="/blog/masters21" component={Masters21} />
         <Route path="/blog/wgc" component={WGCDellTech} />
         <Route path="/tours/gallery-2021" component={Gallery2021} />
+        <Route path="/blog/review-2021" component={Review2021} />
         <Route path="/blog/review-2020" component={Review2020} />
         <Route path="/members/:id" component={MemberShow} />
         <Route path="/about" component={About} />
