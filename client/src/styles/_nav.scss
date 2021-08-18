@@ -32,6 +32,11 @@ $sig-yellow: #e7f900;
     text-transform: uppercase;
     padding: 10px;
   }
+  .nav-item:active {
+    border-radius: 10px;
+    background-color: white;
+    color: $sig-green;
+  }
 }
 
 .title {
