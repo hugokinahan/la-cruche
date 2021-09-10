@@ -106,8 +106,8 @@ function Review2021() {
             <ReactPlayer
               className="react-player"
               url={rhodesTrackman}
-              width={500}
-              height={500}
+              width="50%"
+              height="50%"
               controls={true}
             />
             <span className="span-italic">
@@ -143,8 +143,8 @@ function Review2021() {
             <ReactPlayer
               className="react-player"
               url={paulPK}
-              width={500}
-              height={500}
+              width="50%"
+              height="50%"
               controls={true}
             />
             <span className="span-italic">
@@ -396,8 +396,8 @@ function Review2021() {
             <ReactPlayer
               className="react-player"
               url={joePutt}
-              width={500}
-              height={500}
+              width="50%"
+              height="50%"
               controls={true}
             />
             <span className="span-italic">It never looked anywhere else.</span>
