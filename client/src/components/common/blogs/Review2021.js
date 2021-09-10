@@ -358,10 +358,10 @@ function Review2021() {
               </p>
             <div className="hugo-account">
               <p>
-                "Joe Account"
+              "One of the finer days of the tour was about to take a dark turn that none of us could have foreseen. All was dandy at Machynys, the sun was shining down on the terrace where egos were being thrown into question over the choice of a morning coffee or a creamy Guinness. ‘One of each for me thanks barkeep!’. For future reference: A rather unsettling combination for the stomach, especially when guided down with one of Fitz’ s luscious Marlboro Touchs. Needless to say, the gents beckoned for myself as the others went to hit the range. Being the last out, I was left with the end slot on the line, where I plonked down the sticks and plucked out my five wood to get going. While the natural beauty of Machynys was part of its allure, I couldn’t help but feel the gaggle of geese a mere 80 yards in front of the tees was a touch too far, though with no one else seeming bothered by them, why should I be?"
               </p>
               <p>
-                "Joe Account"
+              "My five wood had been playing up in recent rounds which, of course, was entirely of its own accord and had nothing to do with my swing, so I thought it best to give it a chance to prove itself here. It did not. The first was topped and trickled about 30 yards in front, at which point I was extremely concerned for the gaggle. The second flew low and hard, nutmegging one of the unsuspecting birds, to which I was expecting a few ‘Oles’ from the rest of the range. Alas, nothing. If that shot hadn’t ruined his career, the next certainly did. Another unintentional stinger darted directly toward the feathered creatures, and struck one on directly on the neck. Protective instincts kicked in as the group charged to surround and help the poor bastard while he floundered about on the deck, trying to determine which way was up and down. Gasps and screams echoed around the range as we all waited in bated breath for the outcome. After a good 30 seconds of him running around like a, well… He seemed to come to, much to the relief of those in witness to the horror show. Nevertheless, that five wood is firmly planted in the corner of my garage in shame, never to see the light of day again."
               </p>
             </div>
             <p>
