@@ -19,6 +19,7 @@ import Rules from './components/common/Rules'
 import Tours from './components/common/Tours'
 import MemberShow from './components/members/MemberShow'
 import NotFound from './components/common/NotFound'
+import HandicapTracker from './components/common/HandicapTracker'
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Route path="/courses" component={Courses} />
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
+        <Route path="/handicap" component={HandicapTracker} />
         <Route path="*" component={NotFound} />
       </Switch>
     </BrowserRouter>
