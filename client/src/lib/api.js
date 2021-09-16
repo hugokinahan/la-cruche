@@ -13,3 +13,7 @@ export function getSingleMember(id) {
 export function getAllCourses() {
   return axios.get(`${baseUrl}/courses`)
 }
+
+export function createScorecard(formdata) {
+  return axios.post(`${baseUrl}/scorecard-create`, formdata)
+}

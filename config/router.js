@@ -1,6 +1,7 @@
 import express from 'express'
 import members from '../controllers/members.js'
 import courses from '../controllers/courses.js'
+import scorecards from '../controllers/scorecards.js'
 
 const router = express.Router()
 
@@ -18,5 +19,11 @@ router.route('/members/:id')
 router.route('/courses')
   .get(courses.index)
 //   .post(members.create)
+
+router.route('/scorecards')
+  .get(scorecards.index)
+
+router.route('/scorecard-create')
+  .post(scorecards.create)
 
 export default router

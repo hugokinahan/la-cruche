@@ -12,5 +12,5 @@ async function userProfile(req, res, next){
 }
 
 export default {
-  userProfile
+  userProfile,
 }

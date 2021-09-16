@@ -4,7 +4,7 @@ import Footer from './Footer'
 import useForm from '../../utils/useForm'
 import { useHistory } from 'react-router-dom'
 import { Icon, Label, Menu, Table } from 'semantic-ui-react'
-import { getAllMembers } from '../../lib/api'
+import { getAllMembers, createScorecard } from '../../lib/api'
 import ScorecardDisplay from './ScorecardDisplay'
 
 function HandicapTracker() {
@@ -34,10 +34,6 @@ function HandicapTracker() {
   const { formdata,  handleChange } = useForm({
     courseName: '',
     date: '',
-    playerOne: '', 
-    playerTwo: '',
-    playerThree: '', 
-    playerFour: '', 
     holeOneYardage: '',
     holeTwoYardage: '',
     holeThreeYardage: '',
@@ -182,10 +178,6 @@ function HandicapTracker() {
     playerFourGoingOut: '',
     playerFourComingIn: '',
     playerFourTotal: '',
-    playerOneName: '',
-    playerTwoName: '',
-    playerThreeName: '',
-    playerFourName: '',
   })
 
   function handlePlayerOneChange(e) {
@@ -200,12 +192,18 @@ function HandicapTracker() {
   function handlePlayerFourChange(e) {
     setPlayerFourName(e.target.value)
   }
-  console.log(playerOneName)
-  console.log(playerTwoName)
-  console.log(playerThreeName)
-  console.log(playerFourName)
 
-  console.log(formdata)
+  const handleSubmit = async (event) => {
+    event.preventDefault()
+    try {
+      const { data } = await createScorecard(formdata)
+      console.log(data)
+      history.push(`/`)
+    } catch (err) {
+      // setErrors(err.response.data.errors)
+      console.log(err)
+    }
+  }
 
   return (
     <section>
@@ -1951,7 +1949,7 @@ function HandicapTracker() {
       </Table.Row>
     </Table.Footer> */}
         </Table>
-        <button>Submit Scorecard</button>
+        <button onClick={handleSubmit}>Submit Scorecard</button>
         <div>
           <ScorecardDisplay
             formdata={formdata}
@@ -1959,6 +1957,7 @@ function HandicapTracker() {
             playerTwoName={playerTwoName}
             playerThreeName={playerThreeName}
             playerFourName={playerFourName}
+            handleSubmit={handleSubmit}
           />
         </div>
       </div>

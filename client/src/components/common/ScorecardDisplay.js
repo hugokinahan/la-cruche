@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ScorecardDisplay({ formdata, playerOneName, playerTwoName, playerThreeName, playerFourName }){
+function ScorecardDisplay({ formdata, playerOneName, playerTwoName, playerThreeName, playerFourName, handleSubmit }){
 
   console.log(formdata)
 
@@ -8,13 +8,13 @@ function ScorecardDisplay({ formdata, playerOneName, playerTwoName, playerThreeN
     // <h1>Hello World</h1>
     <div>
       <div className="scorecard-container">
+        {formdata ?
         <div className="scorecard-headers">
           <h1>
             {formdata.courseName} - {formdata.date}
           </h1>
           <h1>Par: {formdata.parTotal}</h1>
           <h2>Yardage: {formdata.yardageTotal} yds</h2>
-        </div>
         <div className="scorecard-players">
           {playerOneName ? (
             <div className="scorecard-player-results">
@@ -61,6 +61,8 @@ function ScorecardDisplay({ formdata, playerOneName, playerTwoName, playerThreeN
             ""
           )}
         </div>
+        </div>
+                : '' }
       </div>
     </div>
   )
