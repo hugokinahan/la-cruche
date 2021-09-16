@@ -212,22 +212,24 @@ function HandicapTracker() {
       <Nav />
       <div className="about-content">
         <h1 className="about-header">Handicap Tracker</h1>
-        <Table celled>
-          <Table.Header>
-            <input
-              className="input-cell"
+        <div className="header-inputs">
+            <p>Course:</p><input
+              className="input-headercell"
               placeholder="e.g. Royal Portrush"
               onChange={handleChange}
               name="courseName"
               value={formdata.courseName}
             />
-            <input
-              className="input-cell"
+            <p>Date:</p><input
+              className="input-headercell"
               placeholder="e.g. 12/06/2021"
               onChange={handleChange}
               name="date"
               value={formdata.date}
             />
+              </div>
+        <Table celled>
+          <Table.Header>
             <Table.Row>
               <Table.HeaderCell>Hole</Table.HeaderCell>
               <Table.HeaderCell>1</Table.HeaderCell>
