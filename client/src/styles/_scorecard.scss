@@ -1,0 +1,20 @@
+.scorecard-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.scorecard-headers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scorecard-players {
+  display: flex;
+  justify-content: space-around;
+}
+
+.scorecard-player-results {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
