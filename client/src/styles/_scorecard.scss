@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+  width: 100%;
 }
 
 .player-container {
@@ -11,18 +12,24 @@
 }
 
 .scorecard-headers {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
 
 .scorecard-players {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   text-align: left;
 }
 
 .scorecard-player-results {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -37,4 +44,40 @@
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 20px;
+}
+
+Table {
+  text-align: center;
+  padding: 20px;
+  margin: 10px auto;
+  border: 1px solid gold;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.table-cell {
+  padding: 3px;
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
+.table-cell-background {
+  padding: 3px;
+  text-align: center;
+  border: 1px solid lightgray;
+  background-color: lightgrey;
+}
+
+.scorecard-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.icon {
+  size: 10px;
 }

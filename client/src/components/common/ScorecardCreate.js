@@ -178,6 +178,10 @@ function ScorecardCreate() {
     playerFourGoingOut: '',
     playerFourComingIn: '',
     playerFourTotal: '',
+    playerOneName: '',
+    playerTwoName: '',
+    playerThreeName: '',
+    playerFourName: '',
   })
 
   function handlePlayerOneChange(e) {
@@ -192,13 +196,21 @@ function ScorecardCreate() {
   function handlePlayerFourChange(e) {
     setPlayerFourName(e.target.value)
   }
+  formdata.playerOneName = playerOneName
+  formdata.playerTwoName = playerTwoName
+  formdata.playerThreeName = playerThreeName
+  formdata.playerFourName = playerFourName
+
+  
+
+  console.log(playerOneName)
 
   const handleSubmit = async (event) => {
     event.preventDefault()
     try {
       const { data } = await createScorecard(formdata)
       console.log(data)
-      history.push(`/`)
+      history.push(`/scorecards`)
     } catch (err) {
       // setErrors(err.response.data.errors)
       console.log(err)
@@ -855,7 +867,14 @@ function ScorecardCreate() {
             </Table.Row>
             <Table.Row>
               <Table.HeaderCell>
-                <select onChange={handlePlayerOneChange}>
+              {/* <input
+                  className="input-cell"
+                  placeholder=""
+                  onChange={handleChange}
+                  name="playerOneName"
+                  value={formdata.playerOneName}
+                /> */}
+                                <select onChange={handlePlayerOneChange}>
                   {members &&
                     members.map((member) => {
                       return <option>{member.name}</option>;
@@ -1073,7 +1092,7 @@ function ScorecardCreate() {
             </Table.Row>
             <Table.Row>
               <Table.HeaderCell>
-                <select onChange={handlePlayerTwoChange}>
+              <select onChange={handlePlayerTwoChange}>
                   {members &&
                     members.map((member) => {
                       return <option>{member.name}</option>;
@@ -1291,7 +1310,7 @@ function ScorecardCreate() {
             </Table.Row>
             <Table.Row>
               <Table.HeaderCell>
-                <select onChange={handlePlayerThreeChange}>
+              <select onChange={handlePlayerThreeChange}>
                   {members &&
                     members.map((member) => {
                       return <option>{member.name}</option>;
@@ -1509,7 +1528,7 @@ function ScorecardCreate() {
             </Table.Row>
             <Table.Row>
               <Table.HeaderCell>
-                <select onChange={handlePlayerFourChange}>
+              <select onChange={handlePlayerFourChange}>
                   {members &&
                     members.map((member) => {
                       return <option>{member.name}</option>;
@@ -1952,6 +1971,7 @@ function ScorecardCreate() {
         <button onClick={handleSubmit}>Submit Scorecard</button>
         <div>
           <ScorecardDisplay
+            members={members}
             formdata={formdata}
             playerOneName={playerOneName}
             playerTwoName={playerTwoName}

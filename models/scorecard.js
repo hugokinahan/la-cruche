@@ -3,7 +3,7 @@ import uniqueValidator from 'mongoose-unique-validator'
 
 const scorecardSchema = new mongoose.Schema({
   courseName: { type: String, required: true },
-  date: { type: Date, required: true },
+  date: { type: String, required: true },
   holeOneYardage: { type: Number, required: true },
   holeTwoYardage: { type: Number, required: true },
   holeThreeYardage: { type: Number, required: true },
@@ -148,6 +148,10 @@ const scorecardSchema = new mongoose.Schema({
   playerFourGoingOut: { type: Number, required: false },
   playerFourComingIn: { type: Number, required: false },
   playerFourTotal: { type: Number, required: false },
+  playerOneName: { type: String, required: true },
+  playerTwoName: { type: String, required: false },
+  playerThreeName: { type: String, required: false },
+  playerFourName: { type: String, required: false },
 })
 
 scorecardSchema.plugin(uniqueValidator)

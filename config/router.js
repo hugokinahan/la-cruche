@@ -23,6 +23,9 @@ router.route('/courses')
 router.route('/scorecards')
   .get(scorecards.index)
 
+router.route('/scorecards/:id')
+  .delete(scorecards.delete)
+
 router.route('/scorecard-create')
   .post(scorecards.create)
 
