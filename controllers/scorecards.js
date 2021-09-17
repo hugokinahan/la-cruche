@@ -1,5 +1,5 @@
-import Scorecard from '../models/Scorecard.js'
-import { notFound, forbidden } from './../lib/errorHandler.js'
+import Scorecard from '../models/scorecard.js'
+import { notFound } from './../lib/errorHandler.js'
 
 async function scorecardIndex(_req, res, next) {
   try {
