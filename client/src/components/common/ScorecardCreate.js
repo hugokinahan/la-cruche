@@ -7,7 +7,7 @@ import { Icon, Label, Menu, Table } from 'semantic-ui-react'
 import { getAllMembers, createScorecard } from '../../lib/api'
 import ScorecardDisplay from './ScorecardDisplay'
 
-function HandicapTracker() {
+function ScorecardCreate() {
 
   const history = useHistory()
 
@@ -209,7 +209,7 @@ function HandicapTracker() {
     <section>
       <Nav />
       <div className="about-content">
-        <h1 className="about-header">Handicap Tracker</h1>
+        <h1 className="about-header">Enter Your Scorecard</h1>
         <div className="header-inputs">
             <p>Course:</p><input
               className="input-headercell"
@@ -1966,4 +1966,4 @@ function HandicapTracker() {
   )
 }
 
-export default HandicapTracker
+export default ScorecardCreate

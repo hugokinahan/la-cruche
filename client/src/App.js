@@ -19,7 +19,8 @@ import Rules from './components/common/Rules'
 import Tours from './components/common/Tours'
 import MemberShow from './components/members/MemberShow'
 import NotFound from './components/common/NotFound'
-import HandicapTracker from './components/common/HandicapTracker'
+import ScorecardCreate from './components/common/ScorecardCreate'
+import ScorecardDisplay from './components/common/ScorecardDisplay'
 
 
 function App() {
@@ -44,7 +45,8 @@ function App() {
         <Route path="/courses" component={Courses} />
         <Route path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} />
-        <Route path="/handicap" component={HandicapTracker} />
+        <Route path="/scorecards" component={ScorecardDisplay} />
+        <Route path="/scorecard-create" component={ScorecardCreate} />
         <Route path="*" component={NotFound} />
       </Switch>
     </BrowserRouter>

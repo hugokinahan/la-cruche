@@ -1,22 +1,32 @@
 .scorecard-container {
   display: flex;
   flex-direction: column;
+  text-align: left;
+}
+
+.player-container {
+  border: 1px solid $sig-green;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 .scorecard-headers {
   display: flex;
   justify-content: space-around;
+  text-align: left;
 }
 
 .scorecard-players {
   display: flex;
   justify-content: space-around;
+  text-align: left;
 }
 
 .scorecard-player-results {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  text-align: left;
 }
 
 .input-headercell {
