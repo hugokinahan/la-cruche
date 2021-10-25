@@ -6,6 +6,8 @@ import Image1 from '../images/group-rosapenna-tom-morris.jpg'
 import { Button } from "semantic-ui-react";
 import { Link } from "react-router-dom";
 
+import walesImage from '../images/wales/IMG_0077.jpg';
+
 function Tours() {
 
   return (
@@ -13,6 +15,30 @@ function Tours() {
       <Nav />
       <div className="blog-content">
         <h1 className="blog-header">Tours</h1>
+        <div className="blog-card">
+          <img alt="logo" src={walesImage} />
+          <div className="blog-card-content">
+            <h2>La Cruche 2021, Wales</h2>
+            <p>
+              With the perils of the pandemic striking again, the original La Cruche 2021 Tour to France was postponed to 2022. Nevertheless, this gave us the opportunity to sample maybe one of the more underrated spots of UK golf - South Wales. Could Harry do the double, or would one of the newcomers steal the headlines?
+            </p>
+            <Link to="/blog/review-2021">
+              <Button>Read More</Button>
+            </Link>
+            <a href="https://www.pandkgolfclub.co.uk/">
+              <Button>Pyle & Kenfig Golf Club</Button>
+            </a>
+            <a href="https://ashburnhamgolfclub.co.uk/">
+              <Button>Ashburnham Golf Club</Button>
+            </a>
+            <a href="https://www.machynys.com/">
+              <Button>Machynys Peninsula Golf Club</Button>
+            </a>
+            <Link to="/courses">
+              <Button>Map View</Button>
+            </Link>
+          </div>
+        </div>
         <div className="blog-card">
           <img alt="logo" src={Image1} />
           <div className="blog-card-content">
@@ -28,27 +54,6 @@ function Tours() {
             </Link>
             <Link to="/tours/gallery-2020">
               <Button>Gallery</Button>
-            </Link>
-          </div>
-        </div>
-        <div className="blog-card">
-          <img alt="logo" src="https://golf-pass.brightspotcdn.com/dims4/default/b818c56/2147483647/strip/true/crop/1024x661+0+31/resize/930x600!/quality/90/?url=https%3A%2F%2Fgolf-pass-brightspot.s3.amazonaws.com%2Fd9%2F0b%2F2f370834cdd43515c5e43d102de0%2F60045.jpg" />
-          <div className="blog-card-content">
-            <h2>La Cruche 2021, Wales</h2>
-            <p>
-              With the perils of the pandemic striking again, the original La Cruche 2021 Tour to France was postponed to 2022. Nevertheless, this gives us the opportunity to sample maybe one of the more underrated spots of UK golf - South Wales.
-            </p>
-            <a href="https://www.pandkgolfclub.co.uk/">
-              <Button>Pyle & Kenfig Golf Club</Button>
-            </a>
-            <a href="https://ashburnhamgolfclub.co.uk/">
-              <Button>Ashburnham Golf Club</Button>
-            </a>
-            <a href="https://www.machynys.com/">
-              <Button>Machynys Peninsula Golf Club</Button>
-            </a>
-            <Link to="/courses">
-              <Button>Map View</Button>
             </Link>
           </div>
         </div>

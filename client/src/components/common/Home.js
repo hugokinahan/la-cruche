@@ -100,15 +100,15 @@ function Home() {
               <div className="news-card">
               <img alt="logo-golf" src={logo} />
                 <p>
-                  Find out who we tipped to win the 2021 PGA Championship as Joe takes you through the picks at Kiawah Island
+                Relive the 2021 La Cruche tour as we descended on South Wales and the stunning golf courses hugging the Carmarthenshire Coastline. 
                 </p>
-                <Link to="/blog/pga21">
+                <Link to="/blog/review-2021">
                   <Button>Read More</Button>
                 </Link>
               </div>
               <div className="news-card">
                 <p>
-                  Read Milo's recollection of the trials and tribulations of the 2020 Tour of Northern Ireland
+                  Read Milo's recollection of the trials and tribulations of the 2020 Tour of Northern Ireland.
                 </p>
                 <Link to="/blog/review-2020">
                   <Button>Read More</Button>
@@ -117,7 +117,7 @@ function Home() {
               <div className="news-card">
                 <p>
                   Meet the La Cruche members and find out more about their
-                  golfing experiences
+                  golfing experiences.
                 </p>
                 <Link to="/members">
                   <Button>Members</Button>
